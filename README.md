@@ -2,14 +2,14 @@
 
 ![Python Tests](https://github.com/amanamarjit243222/Knowledge-Synthesizer/actions/workflows/python-tests.yml/badge.svg)
 
-![Application Interface](knowledge_synthesizer_ui.png)
+![Application Interface](frontend/assets/knowledge_synthesizer_ui.png)
 
 An intelligent audio-to-knowledge system that transforms passive listening into active, retained expertise.
 
 ## 🚀 The Core Problem & AI Solution
-![The Problem](problem.png)
-![The AI Solution](solution.png)
-![The Benefit](benefit.png)
+![The Problem](frontend/assets/problem.png)
+![The AI Solution](frontend/assets/solution.png)
+![The Benefit](frontend/assets/benefit.png)
 
 ## 👥 Who This Is For
 - **EdTech Startups**: Organizations building the next generation of AI-driven adaptive learning tools.
@@ -116,4 +116,4 @@ All secrets are managed via environment variables. **Never commit `.env` to vers
 See [`backend/.env.example`](backend/.env.example) for the full template.
 
 ## 📸 Application Interface
-![UI Interface](knowledge_synthesizer_ui.png)
+![UI Interface](frontend/assets/knowledge_synthesizer_ui.png)

@@ -34,6 +34,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r backend/requirements.txt
           pip install pytest httpx
+          python -m textblob.download_corpora
 
       - name: Run Tests
         run: |
