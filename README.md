@@ -1,36 +1,37 @@
 # 🧠 Knowledge Synthesizer: AI-Powered Learning Pipeline
 
-An intelligent audio-to-knowledge system that transforms passive listening into active learning materials.
+An intelligent audio-to-knowledge system that transforms passive listening into active, retained expertise.
 
-## 🚀 The Use Case: Bridging the Learning Gap
-Traditional lectures and meetings are often lost to time. **Knowledge Synthesizer** bridges this gap by automatically transcribing audio and distilling it into structured memory aids. It is designed for students and professionals who need to move from "information" to "long-term retention" in minutes, not hours.
-
-## 📈 The Pipeline (Visual)
+## 🚀 The Core Problem & AI Solution
 ![The Problem](problem.png)
 ![The AI Solution](solution.png)
 ![The Benefit](benefit.png)
 
-## ✨ Features
-- **Smart Transcription**: Seamlessly converts speech to text using `SpeechRecognition`.
-- **NLP Insights**: Automatically extracts key arguments and builds **Concept Maps**.
-- **Active Recall Engine**: Generates quizzes and flashcards to power your study sessions.
-- **RESTful Architecture**: High-performance FastAPI backend for rapid processing.
+## 👥 Who This Is For
+- **EdTech Startups**: Organizations building the next generation of AI-driven adaptive learning tools.
+- **Corporate Training Platforms**: Implementing internal Knowledge Management Systems (LMS) with automated summarization.
+- **Content Creators & Educators**: Seeking to turn raw video/audio content into structured study materials (Flashcards, Quizzes) instantly.
 
-## 📸 Application Layout
-![UI Interface](knowledge_synthesizer_ui.png)
+## ✨ Technical Features
+- **Smart Transcription**: Seamlessly converts speech to text using `SpeechRecognition` and `pydub`.
+- **NLP Insights**: Automatically extracts key arguments and builds **Concept Maps** via TextBlob.
+- **Active Recall Engine**: Generates automated study aids to bridge the gap between "Information" and "Retention".
+- **High-Performance API**: Built with FastAPI for rapid, asynchronous processing.
 
 ## 🛠️ Tech Stack
-- **Backend**: FastAPI (Python)
-- **Audio Logic**: `pydub`, `SpeechRecognition` (via FFmpeg)
-- **NLP Engine**: `textblob`
-- **Frontend**: HTML5/Vanilla JS
+- **Backend**: Python, [FastAPI](https://fastapi.tiangolo.com/)
+- **Audio Processing**: `speech_recognition`, `pydub` (FFmpeg backend)
+- **NLP Processing**: `textblob`
 
-## 🚀 Execution
+## 🚀 Execution & Local Demo
 ```bash
+git clone https://github.com/amanamarjit243222/Knowledge-Synthesizer.git
+cd Knowledge-Synthesizer
 pip install fastapi uvicorn textblob SpeechRecognition pydub
 uvicorn main:app --reload
 ```
-Open `index.html` to begin synthesizing.
+*Open `index.html` in your browser to start synthesizing.*
 
-## 📄 License
-Open-source.
+## 📸 Application Interface
+![UI Interface](knowledge_synthesizer_ui.png)
+
