@@ -1,5 +1,7 @@
 # 🧠 Knowledge Synthesizer: AI-Powered Learning Pipeline
 
+![Application Interface](knowledge_synthesizer_ui.png)
+
 An intelligent audio-to-knowledge system that transforms passive listening into active, retained expertise.
 
 ## 🚀 The Core Problem & AI Solution
