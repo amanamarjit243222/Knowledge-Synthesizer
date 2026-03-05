@@ -40,6 +40,7 @@ jobs:
         run: |
           cd backend
           python -m textblob.download_corpora
+          python -m nltk.downloader punkt_tab
           python -m pytest tests/ -v --tb=short
         env:
           ALLOWED_ORIGINS: "*"
