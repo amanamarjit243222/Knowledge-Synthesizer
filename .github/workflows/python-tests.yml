@@ -35,11 +35,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r backend/requirements.txt
           pip install pytest httpx
-          python -m textblob.download_corpora
 
       - name: Run Tests
         run: |
           cd backend
+          python -m textblob.download_corpora
           python -m pytest tests/ -v --tb=short
         env:
           ALLOWED_ORIGINS: "*"
