@@ -1,0 +1,29 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\dibya\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\dibya\.gemini\antigravity\scratch\repos\Knowledge-Synthesizer
+plugins: anyio-4.12.1
+collecting ... collected 18 items / 1 error
+
+=================================== ERRORS ====================================
+_________________ ERROR collecting backend/tests/test_api.py __________________
+backend\tests\test_api.py:16: in <module>
+    client = TestClient(app)
+             ^^^^^^^^^^^^^^^
+C:\Users\dibya\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\testclient.py:399: in __init__
+    super().__init__(
+E   TypeError: Client.__init__() got an unexpected keyword argument 'app'
+============================== warnings summary ===============================
+..\..\..\..\..\AppData\Local\Programs\Python\Python311\Lib\site-packages\speech_recognition\__init__.py:11
+  C:\Users\dibya\AppData\Local\Programs\Python\Python311\Lib\site-packages\speech_recognition\__init__.py:11: DeprecationWarning: 'aifc' is deprecated and slated for removal in Python 3.13
+    import aifc
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python311\Lib\site-packages\speech_recognition\__init__.py:13
+  C:\Users\dibya\AppData\Local\Programs\Python\Python311\Lib\site-packages\speech_recognition\__init__.py:13: DeprecationWarning: 'audioop' is deprecated and slated for removal in Python 3.13
+    import audioop
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR backend/tests/test_api.py - TypeError: Client.__init__() got an unexpec...
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+======================== 2 warnings, 1 error in 3.05s =========================
