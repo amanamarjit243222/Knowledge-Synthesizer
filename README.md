@@ -20,6 +20,13 @@ An intelligent audio-to-knowledge system that transforms passive listening into 
 - **Active Recall Engine**: Generates automated study aids to bridge the gap between "Information" and "Retention".
 - **High-Performance API**: Built with FastAPI for rapid, asynchronous processing.
 
+## 🛠️ Backend Architect & NLP Features
+The "Knowledge Synthesizer" isn't just a UI—it's a sophisticated data pipeline capable of handling high-concurrency requests.
+- **Asynchronous Processing**: Leverages FastAPI’s `async` capabilities to handle audio stream processing and NLP heavy-lifting without blocking the main event loop.
+- **NLP Sentiment & Polarity Analysis**: Uses TextBlob to determine the tonality of transcribed content, which aids in classifying the nature of the "knowledge" (e.g., factual vs. opinionated).
+- **Automated Summarization Logic**: The backend logic parses raw transcripts to extract noun phrases and key concepts, which are then used to auto-populate study aids.
+- **Extensible Audio Pipeline**: The modular design allows for easy integration with OpenAI's Whisper or Google's Speech-to-Text for enterprise-grade deployments.
+
 ## 🛠️ Tech Stack
 - **Backend**: Python, [FastAPI](https://fastapi.tiangolo.com/)
 - **Audio Processing**: `speech_recognition`, `pydub` (FFmpeg backend)
