@@ -1387,13 +1387,13 @@
 
     <!-- ADDED: DARK MODE VIDEO (Visible when data-theme="dark") -->
     <video autoplay muted loop playsinline class="bg-video" id="bg-video-dark">
-        <source src="black.mp4" type="video/mp4">
+        <source src="assets/black.mp4" type="video/mp4">
     </video>
 
     <!-- ADDED: LIGHT MODE VIDEO (Visible by default) -->
     <!-- ACTION: Replace 'PLACEHOLDER_FOR_WHITE_MODE_VIDEO.mp4' with your actual filename -->
     <video autoplay muted loop playsinline class="bg-video" id="bg-video-light">
-        <source src="white.mp4" type="video/mp4">
+        <source src="assets/white.mp4" type="video/mp4">
     </video>
 
     <!-- ADDED: Video Overlay for text readability (adapts via CSS) -->
@@ -1406,7 +1406,7 @@
             <div class="loader-ring-tech ring-1"></div>
             <div class="loader-ring-tech ring-2"></div>
             <!-- Using the team symbol here -->
-            <img src="team_symbol.png" alt="Loading">
+            <img src="assets/team_symbol.png" alt="Loading">
         </div>
         <div class="loading-text-tech">Loading...</div>
     </div>
@@ -1503,7 +1503,8 @@
                         </div>
                         <h3>Capture Input</h3>
                         <p>Select your source material. Use <strong>Live Audio</strong> for real-time meetings, paste a
-                            <strong>Transcript</strong>, or upload a pre-recorded <strong>Voice File</strong>.</p>
+                            <strong>Transcript</strong>, or upload a pre-recorded <strong>Voice File</strong>.
+                        </p>
                     </div>
 
                     <!-- Step 2 -->
@@ -1774,10 +1775,8 @@
     </main>
 
     <footer>
-        Developed by RTA
-    </footer>
-
-    <script src="script.js"></script>
+        <!-- CORE SIMULATION LOGIC (Modular ESM) -->
+        <script type="module" src="src/main.js"></script>
 
 </body>
 
