@@ -38,6 +38,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          python -m pytest backend/tests/ -v --tb=short
+          cd backend
+          python -m pytest tests/ -v --tb=short
         env:
           ALLOWED_ORIGINS: "*"
