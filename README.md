@@ -45,7 +45,7 @@ An intelligent audio-to-knowledge pipeline that transcribes lectures/meetings an
 5. Open `index.html` in your browser to use the client interface.
 
 ## 📸 Demo
-*(Consider adding a live deployment link and a GIF demonstrating uploading an audio file and receiving flashcards/graph nodes.)*
+![Knowledge Synthesizer Interface](knowledge_synthesizer_ui.png)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
