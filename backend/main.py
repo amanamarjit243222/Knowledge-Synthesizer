@@ -17,9 +17,9 @@ from pydub.effects import normalize
 import uvicorn
 
 # --- IMPORTING YOUR MODULES ---
-from tagging import SmartTagger
-from retention_engine import RetentionEngine
-from visual_notes import VisualNoteManager
+from src.tagging import SmartTagger
+from src.retention_engine import RetentionEngine
+from src.visual_notes import VisualNoteManager
 
 # --- FFMPEG AUTO-CONFIG ---
 def setup_ffmpeg():
