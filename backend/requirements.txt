@@ -1,0 +1,9 @@
+# dependencies
+fastapi==0.95.1
+uvicorn==0.22.0
+python-multipart==0.0.6
+textblob==0.17.1
+SpeechRecognition==3.10.0
+pydub==0.25.1
+aiofiles==23.1.0
+httpx<0.28.0
